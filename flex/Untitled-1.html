@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            section{
+                display: flex;
+                flex-direction: row;
+                width: 50%;
+                box-sizing: border-box;
+                flex-wrap:wrap;
+
+            }
+           
+            .big{
+                height: 400px;
+            }
+            .tr{ 
+                
+                background-color: pink;
+                width: calc(100%/3);
+                flex-grow: 1;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="tr"></div>
+            <div class="tr">2</div>
+            <div class="tr">3</div>
+            <div class="tr">4</div>
+            <div class="tr big">5</div>
+            
+        </section>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+*{
+    font: 100% impact;
+    width: 100%;
+}
+
+header{
+    background-color: aqua;
+    border-radius: 10px;
+    display:flex;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 170%;
+    word-spacing: 30px;
+    
+}
+nav{
+    text-align: end;
+}
+.shrift{
+    text-align: start;
+}
+nav a{
+    display:inline ;
+}

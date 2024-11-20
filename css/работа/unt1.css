@@ -1,0 +1,28 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap :30px;
+    font:14px/1.5 monospace
+}
+.section{
+    height: 200000px;
+    background: #ffeb3b;
+}
+ .image{
+    background-image: url(https://avatars.mds.yandex.net/i?id=ad664ed142cc30aa3a49c4270ddae4a9dd846488-4234533-images-thumbs&n=13);
+}/*
+.repeat-x{
+    background-repeat: repeat-x;
+}
+.repeat-y{
+    background-repeat: repeat-y;
+}
+.no-repeat{
+    background-repeat: no-repeat;
+} */
+.repeat-space{
+    background-repeat: repeat-space;
+}
+/* .repeat-round{
+    background-repeat: round;
+} */
